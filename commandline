@@ -1,0 +1,8 @@
+#These commands are for the terminal
+
+websocketd --port=8080 python pythoncode.py #to serve as websocket
+
+python -m SimpleHTTPServer 8081 #to start server on port 8081
+
+
+
