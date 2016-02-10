@@ -6,7 +6,7 @@ This application streams data from open-notify.org. The data streamed is about t
 
 Though the International Space Station moves at a very fast speed, we poll every 5 seconds so that there is noticeable difference in the latitude and longitude.
 
-According to the latitude and longitude obtained, we then determine over which country the International Space Station is currently located. If it is is over no country, we print International Waters.
+According to the latitude and longitude obtained, we then determine over which country the International Space Station is currently located. We do this by using geocoder. If it is is over no country, we print International Waters.
 
 The below screenshot displays the final result of the project i.e, displaying Country over which it is(or international waters), timestamp, latitude and longitude of the International Space Station on the webpage as list items.
 
