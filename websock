@@ -1,4 +1,3 @@
 var ws= new WebSocket("ws://localhost:8080")
 
-ws.onmessage = function(msg){console.log(JSON.parse(msg.data))}
-(msg){console.log(JSON.parse(msg.data))}
+ws.onmessage = function(msg){console.log(JSON.parse(JSON.stringify(msg.data)))}
